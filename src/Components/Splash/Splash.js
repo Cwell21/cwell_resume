@@ -3,6 +3,8 @@ import './Splash.css';
 
 // IMPORT ASSETS
 
+//IMPORT CHILD COMPONENTS
+import { Navigation } from '../Navigation/Navigation.js';
 
 export function Splash(props) {
 
@@ -13,6 +15,7 @@ export function Splash(props) {
       <section className='splash_text_container'>
         <h1>Matt Caldwell</h1>
         <span>Front End | Developer</span>
+        <Navigation />
       </section>
     </section>
   );

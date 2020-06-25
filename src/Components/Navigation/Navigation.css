@@ -1,0 +1,45 @@
+/* NAVIGATION COMPONENT STYLES */
+.site_nav {
+  background-color: rgb(10,10,30);
+  bottom: -27vh;
+  box-shadow: 5px 5px 10px rgb(15,15,15);
+  padding: 1vh 0 2vh;
+  position: absolute;
+  right: 10vw;
+  width: 10vw;
+}
+
+.nav_menu {
+  background-color: rgb(10,10,30);
+  padding: 2vh 0;
+}
+
+.item_button {
+  background-color: rgb(10,10,30);
+  color: rgb(235,235,235);
+  display: block;
+  font-size: 1.25em;
+  left: 0;
+  padding: 2vh 1vw;
+  position: absolute;
+  text-decoration: none;
+  top: -6vh;
+  width: 100%;
+}
+
+.menu_item {
+  display: flex;
+  height: 4vh;
+  padding-left: 2vw;
+  width: 100%;
+}
+
+.menu_link {
+  color: rgb(235,235,235);
+  display: inline-block;
+  font-size: 1.25em;
+  margin: auto;
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+}
