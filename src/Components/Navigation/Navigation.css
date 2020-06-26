@@ -20,10 +20,10 @@
   display: block;
   font-size: 1.25em;
   left: 0;
-  padding: 2vh 1vw;
+  padding: 2vh 1vw 3vh;
   position: absolute;
   text-decoration: none;
-  top: -6vh;
+  top: -7vh;
   width: 100%;
 }
 
