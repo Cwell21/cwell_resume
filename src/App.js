@@ -4,6 +4,10 @@ import './App.css';
 // IMPORT CHILD COMPONENTS
 import { Splash } from './Components/Splash/Splash.js';
 import { About } from './Components/About/About.js';
+import { Experience } from './Components/Experience/Experience.js';
+import { Portfolio } from './Components/Portfolio/Portfolio.js';
+import { Skills } from './Components/Skills/Skills.js';
+import { Work } from './Components/Work/Work.js';
 
 
 class App extends React.Component {
@@ -32,6 +36,10 @@ class App extends React.Component {
           clickHandler = {this.handleClick}
         />
         <About />
+        <Experience />
+        <Skills />
+        <Portfolio />
+        <Work />
       </div>
     );
   }
