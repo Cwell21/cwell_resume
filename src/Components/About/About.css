@@ -1,7 +1,6 @@
 /* STYLES FOR ABOUT COMPONENT */
 
-.about_article {
+#about {
   border: 1px solid red;
-  height: 100vh;
-  width: 100vw;
+
 }
