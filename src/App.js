@@ -19,12 +19,8 @@ class App extends React.Component {
     this.handleClick = this.handleClick.bind(this)
   }
 
-  handleClick(e) {
+  handleClick() {
 
-    console.log('event Handler called');
-    console.log(e.target);
-    // HIDE ELEMENT
-    e.target.style.display = 'none';
 
   }
 
@@ -32,9 +28,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <Splash
-          clickHandler = {this.handleClick}
-        />
+        <Splash />
         <About />
         <Experience />
         <Skills />

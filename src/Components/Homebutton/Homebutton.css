@@ -1,0 +1,14 @@
+/* STYLES FOR HOME BUTTON COMPONENT */
+
+.btn_home {
+  bottom: 0;
+  display: flex;
+  height: 2vh;
+  position: absolute;
+  right: 10vw;
+  width: 10vw;
+}
+
+.btn_home i {
+  margin: auto;
+}

@@ -23,15 +23,10 @@ export function Navigation(props) {
   })
 
   return(
-
-    <nav className='site_nav'>
-      <a href='#about' className='item_button' onClick={(e) => props.clickHandler(e)}>
-        <i class="fas fa-arrow-down fa-2x"></i>
-      </a>
-      <ul nav_menu>
+    <nav id='site_nav'>
+      <ul className='nav_menu'>
         {display_links}
       </ul>
     </nav>
-
   );
 };

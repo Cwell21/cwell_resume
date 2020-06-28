@@ -5,20 +5,20 @@ import './Splash.css';
 
 //IMPORT CHILD COMPONENTS
 import { Navigation } from '../Navigation/Navigation.js';
+import { Homebutton } from '../Homebutton/Homebutton.js';
 
 export function Splash(props) {
 
 
   return(
-    <section className='splash'>
+    <article id='home' className='splash'>
       <div className='splash_cover'></div>
       <section className='splash_text_container'>
         <h1>Matt Caldwell</h1>
         <span>Front End | Developer</span>
-        <Navigation
-          clickHandler = {props.clickHandler}
-        />
+        <Homebutton />
+        <Navigation />
       </section>
-    </section>
+    </article>
   );
 };

@@ -1,6 +1,53 @@
 /* STYLES FOR ABOUT COMPONENT */
 
 #about {
-  border: 1px solid red;
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  padding: 15vh 0 0;
 
+}
+
+.about_header {
+
+  width: 75%;
+
+}
+
+.about_header h1 {
+  font-size: 3em;
+}
+
+.about_header h4 {
+  font-size: 1.25rem;
+}
+
+.about_section {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin: 10vh 0 0;
+}
+
+.about_info {
+  border: 1px solid green;
+  display: flex;
+  height: 50vh;
+  width: 20vw;
+}
+
+#about_figure {
+
+  margin: 0 2vw;
+}
+
+.about_info p {
+  font-size: 1.25em;
+  line-height: 3.5vh;
+  margin: auto;
+  padding: 1vh 3vw 0;
+  text-align: left;
+  width: 100%;
 }

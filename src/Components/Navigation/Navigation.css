@@ -1,17 +1,22 @@
 /* NAVIGATION COMPONENT STYLES */
-.site_nav {
+#site_nav {
   background-color: rgb(10,10,30);
-  bottom: -27vh;
   box-shadow: 5px 5px 10px rgb(15,15,15);
+  display: none;
+  height: auto;
   padding: 1vh 0 2vh;
-  position: absolute;
+  position: fixed;
   right: 10vw;
+  top: 3vh;
   width: 10vw;
 }
 
 .nav_menu {
   background-color: rgb(10,10,30);
+  height: auto;
   padding: 2vh 0;
+  /* position: fixed; */
+
 }
 
 .item_button {

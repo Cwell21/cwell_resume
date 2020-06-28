@@ -5,7 +5,12 @@ export function Experience(props) {
 
   return(
     <article id='experience' className='site_article'>
-      Experience
+      <header>
+        <h1>eXperience</h1>
+        <section>
+
+        </section>
+      </header>
     </article>
   )
 }
