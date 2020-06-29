@@ -2,4 +2,17 @@
 
 #work {
   border: 1px solid gray;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15vh 10vw 0;
+}
+
+.work_card {
+border: 1px solid red;
+
+  height: 30vh;
+  width: 25vw;
+
 }

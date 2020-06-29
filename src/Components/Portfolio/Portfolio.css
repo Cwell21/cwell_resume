@@ -1,6 +1,19 @@
 /* STYLES FOR PORTFOLIO COMPONENT */
 
-  #portfolio {
+#portfolio {
+  border: 1px solid blue;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15vh 10vw 0;
 
-    border: 1px solid blue;
-  }
+}
+
+.portfolio_card {
+border: 1px solid red;
+
+  height: 30vh;
+  width: 25vw;
+
+}
