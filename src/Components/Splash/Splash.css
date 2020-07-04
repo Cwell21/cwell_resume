@@ -33,6 +33,7 @@
 
 .splash h1 {
   display: block;
+  font-family: 'Comfortaa', cursive;
   font-size: 7em;
   text-align: center;
   width: 100%;
@@ -41,6 +42,7 @@
 
 .splash span {
   display: block;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 3em;
   text-align: center;
   width: 100%;

@@ -6,11 +6,11 @@ export function Experience(props) {
   return(
     <article id='experience' className='site_article'>
       <header>
-        <h1>eXperience</h1>
-        <section>
-
-        </section>
+        <h1>My Experience</h1>
       </header>
+      <section>
+        
+      </section>
     </article>
   )
 }

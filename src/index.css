@@ -1,3 +1,19 @@
+/* GLOBAL STYLES
+
+FONTS:
+  Splash Name - Comfortaa  font-family: 'Comfortaa', cursive;
+  Splash Sub title - Cormorant Garamond font-family: 'Cormorant Garamond', serif;
+  Section Titles - Ubuntu font-family: 'Ubuntu', sans-serif;
+
+RGB VALUES:
+  Everton Orange - rgb(252,74,54);
+  Everton Blue - rgb(42,0,126);
+  Dark Blue - rgb(10,10,30);
+
+
+ */
+
+
 * {
   box-sizing: border-box;
 }

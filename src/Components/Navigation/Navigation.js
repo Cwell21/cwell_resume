@@ -13,51 +13,54 @@ export function Navigation(props) {
   ]
 
   window.onscroll = () => {
+
+    // GET NAVIGATION ELEMENTS TO CHANGE ON SCROLL
     const elMenu = document.getElementById('site_nav');
     let elSiteLinks = document.getElementsByClassName('menu_item');
 
+    // GET VIEPORT HEIGHT AND SCROLL POSITION
     const viewportHeight = window.innerHeight;
     let scrollPos = window.scrollY;
 
-    console.log(viewportHeight)
-    console.log(scrollPos)
+    // NAVIGATION COLORS
+    const defaultBackground = 'rgb(42,0,126)';
+    const selectBackground = 'rgb(235,235,235)';
 
     let clearBackground = () => {
       console.log(elSiteLinks)
       Array.prototype.forEach.call(elSiteLinks, link => {
-        link.style.backgroundColor = 'rgb(10,10,30)';
+        link.style.backgroundColor = defaultBackground;
       })
     }
 
     if(scrollPos >= 0 && scrollPos < viewportHeight * .75) {
       clearBackground();
       elMenu.style.display = 'none';
-    }else if(scrollPos >= viewportHeight && scrollPos < viewportHeight * 2) {
+    }else if(scrollPos >= viewportHeight * .75 && scrollPos < viewportHeight * 1.75) {
         elMenu.style.display = 'block';
         clearBackground();
-        elSiteLinks[1].style.backgroundColor = 'rgb(150,20,20)';
-    } else if(scrollPos >= viewportHeight * 2 && scrollPos < viewportHeight * 2.75) {
+        elSiteLinks[1].style.backgroundColor = selectBackground;
+    } else if(scrollPos >= viewportHeight * 1.75 && scrollPos < viewportHeight * 2.75) {
         clearBackground();
         elMenu.style.display = 'block';
-        elSiteLinks[2].style.backgroundColor = 'rgb(150,20,20)';
+        elSiteLinks[2].style.backgroundColor = selectBackground;
     } else if(scrollPos >= viewportHeight * 2.75 && scrollPos < viewportHeight * 3.75) {
         clearBackground();
         elMenu.style.display = 'block';
-        elSiteLinks[3].style.backgroundColor = 'rgb(150,20,20)';
+        elSiteLinks[3].style.backgroundColor = selectBackground;
     } else if(scrollPos >= viewportHeight * 3.75 && scrollPos < viewportHeight * 4.75) {
         clearBackground();
         elMenu.style.display = 'block';
-        elSiteLinks[4].style.backgroundColor = 'rgb(150,20,20)';
+        elSiteLinks[4].style.backgroundColor = selectBackground;
     } else if(scrollPos >= viewportHeight * 4.75 && scrollPos < viewportHeight * 5.75) {
         clearBackground();
         elMenu.style.display = 'block';
-        elSiteLinks[5].style.backgroundColor = 'rgb(150,20,20)';
+        elSiteLinks[5].style.backgroundColor = selectBackground;
     } else {
         clearBackground();
 
     }
   }
-
 
   let display_links = menu_items.map(link => {
     return(

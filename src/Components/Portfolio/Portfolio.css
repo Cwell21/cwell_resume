@@ -1,7 +1,7 @@
 /* STYLES FOR PORTFOLIO COMPONENT */
 
 #portfolio {
-  border: 1px solid blue;
+  
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;

@@ -21,15 +21,15 @@ export function About(props) {
           </p>
         </article>
         <figure className='about_info' id='about_figure'>
-          <img src='' alt='Profile Picture' />
+          <i class="fas fa-user-tie fa-5x"></i>
         </figure>
         <article className='about_info' id='about_stats'>
-          <h2>Stats</h2>
+          <h2>STATS</h2>
           <p>
-            <h4>NAME:</h4><br />
-            <span>Matt Caldwell</span><br />
-            <h4>Email</h4><br />
-            <a href='mailto:mcaldwell@cwell21.com'>mcaldwell@cwell21.com</a>
+            <h4>NAME:<span> Matt Caldwell</span></h4><br />
+
+            <h4>Email:<span> <a href='mailto:mcaldwell@cwell21.com'>mcaldwell@cwell21.com</a></span></h4><br />
+
           </p>
         </article>
       </section>
