@@ -1,28 +1,29 @@
 /* NAVIGATION COMPONENT STYLES */
 #site_nav {
+
   background-color: rgb(10,10,30);
   box-shadow: 5px 5px 10px rgb(15,15,15);
   display: none;
   height: auto;
-  padding: 1vh 0 2vh;
   position: fixed;
-  right: 10vw;
-  top: 3vh;
+  left: 2vw;
+  top: 2vh;
   width: 10vw;
 }
 
 .nav_menu {
+
   background-color: rgb(10,10,30);
-  height: auto;
-  padding: 2vh 0;
-  /* position: fixed; */
+  display: inline-block;
+  height: 30vh;
+  width: 100%;
 
 }
 
 .item_button {
   background-color: rgb(10,10,30);
   color: rgb(235,235,235);
-  display: block;
+  display: inline-block;
   font-size: 1.25em;
   left: 0;
   padding: 2vh 1vw 3vh;
@@ -33,9 +34,10 @@
 }
 
 .menu_item {
+
+  background-color: rgb(10,10,30);
   display: flex;
-  height: 4vh;
-  padding-left: 2vw;
+  height: calc(100% / 6);
   width: 100%;
 }
 
@@ -46,5 +48,5 @@
   margin: auto;
   text-align: left;
   text-decoration: none;
-  width: 100%;
+
 }

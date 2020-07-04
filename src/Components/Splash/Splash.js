@@ -16,7 +16,9 @@ export function Splash(props) {
       <section className='splash_text_container'>
         <h1>Matt Caldwell</h1>
         <span>Front End | Developer</span>
-        <Homebutton />
+        <Homebutton
+          handleClick = {props.handleClick}
+        />
         <Navigation />
       </section>
     </article>

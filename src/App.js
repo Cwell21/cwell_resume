@@ -16,11 +16,14 @@ class App extends React.Component {
     super(props);
 
 
-    this.handleClick = this.handleClick.bind(this)
+    this.handleHomeClick = this.handleHomeClick.bind(this)
   }
 
-  handleClick() {
+  handleHomeClick() {
 
+    const elMenu = document.getElementById('site_nav');
+
+    elMenu.style.display = 'block';
 
   }
 
@@ -28,7 +31,9 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <Splash />
+        <Splash
+          handleClick = {() => this.handleHomeClick}
+        />
         <About />
         <Experience />
         <Skills />
