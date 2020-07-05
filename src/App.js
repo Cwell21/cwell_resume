@@ -8,6 +8,7 @@ import { Experience } from './Components/Experience/Experience.js';
 import { Portfolio } from './Components/Portfolio/Portfolio.js';
 import { Skills } from './Components/Skills/Skills.js';
 import { Work } from './Components/Work/Work.js';
+import { Footer } from './Components/Footer/Footer.js';
 
 
 class App extends React.Component {
@@ -39,6 +40,7 @@ class App extends React.Component {
         <Skills />
         <Portfolio />
         <Work />
+        <Footer />
       </div>
     );
   }
