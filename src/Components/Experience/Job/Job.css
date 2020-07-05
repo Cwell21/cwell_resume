@@ -1,0 +1,33 @@
+/* STYLES FOR JOB COMPONENT */
+.experience_section {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 75%;
+  width: 100%;
+}
+.experience_article {
+  background-color: rgb(235,235,235);
+  border-radius: 1em;
+  box-shadow: 2px 2px rgb(252,74,54);
+  color: rgb(252,74,54);
+  margin: auto auto 5vh;
+
+  height: 20vh;
+  width: 60%;
+
+}
+
+.job_description {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 50%;
+  justify-content: center;
+  list-style-type: circle;
+  padding-left: 3vw;
+  width: 50%;
+}
+
+.description_item {
+  padding: 1vh 0;
+  text-align: left;
+}

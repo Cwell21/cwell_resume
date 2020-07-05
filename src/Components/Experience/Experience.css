@@ -7,7 +7,7 @@
   color: rgb(10,10,30);
   display: flex;
   flex-flow: column nowrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 10vh 0 0;
 
 }

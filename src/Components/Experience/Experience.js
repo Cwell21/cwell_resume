@@ -1,6 +1,8 @@
 import React from 'react';
 import './Experience.css';
 
+import {Job} from './Job/Job.js';
+
 export function Experience(props) {
 
   return(
@@ -8,8 +10,8 @@ export function Experience(props) {
       <header>
         <h1>My Experience</h1>
       </header>
-      <section>
-        
+      <section className='experience_section'>
+        <Job />
       </section>
     </article>
   )
