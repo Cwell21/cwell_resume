@@ -1,7 +1,7 @@
 /* STYLES FOR WORK COMPONENT  */
 
 #work {
-  
+
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -10,8 +10,8 @@
 }
 
 .work_card {
-border: 1px solid red;
 
+  background-size: cover;
   height: 30vh;
   width: 25vw;
 

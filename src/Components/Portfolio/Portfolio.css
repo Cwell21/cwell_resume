@@ -1,7 +1,7 @@
 /* STYLES FOR PORTFOLIO COMPONENT */
 
 #portfolio {
-  
+
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -11,8 +11,8 @@
 }
 
 .portfolio_card {
-border: 1px solid red;
 
+  background-size: cover;
   height: 30vh;
   width: 25vw;
 
