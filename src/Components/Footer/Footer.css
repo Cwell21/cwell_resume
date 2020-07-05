@@ -1,0 +1,46 @@
+/* STYLES FOR FOOTER COMPONENT */
+.site_footer {
+
+  background: rgb(42,0,126);
+  background: linear-gradient(152deg, rgba(42,0,126,1) 0%, rgba(24,0,70,1) 100%);
+  color: rgb(252,74,54);
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: calc(6 * 100vh - 50px);
+  width: 100%;
+}
+
+.site_footer ul {
+  display: flex;
+  float: right;
+  height: 100%;
+  justify-content: space-around;
+  width:15%;
+}
+
+.site_footer ul li {
+  margin: auto;
+  position: relative;
+}
+.site_footer a {
+  color: rgb(252,74,57);
+  text-decoration: none;
+}
+
+.contact_phone {
+  background-color: rgb(42,0,126);
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(100,100,100);
+  display: none;
+  font-size: 1.5em;
+  left: -5vw;
+  padding: 2vh 2vw;
+  position: absolute;
+  top: -8vh;
+
+}
+
+.site_footer li:nth-child(2):hover .contact_phone{
+  display: block;
+}
