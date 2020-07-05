@@ -1,6 +1,7 @@
 /* STYLES FOR HOME BUTTON COMPONENT */
 
 .btn_home {
+  background-color: rgb(252,74,54);
   bottom: 0;
   display: flex;
   height: 2vh;
@@ -9,6 +10,11 @@
   width: 10vw;
 }
 
+.btn_home a {
+  background-color: rgb(42,0,126);
+}
+
 .btn_home i {
+  color: rgb(252,74,54);
   margin: auto;
 }

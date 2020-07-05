@@ -8,7 +8,7 @@ export function Experience(props) {
   return(
     <article id='experience' className='site_article'>
       <header>
-        <h1>My Experience</h1>
+        <h1 className='experience_header'>My Experience</h1>
       </header>
       <section className='experience_section'>
         <Job />

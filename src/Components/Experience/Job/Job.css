@@ -3,17 +3,32 @@
   display: flex;
   flex-flow: column nowrap;
   height: 75%;
+  padding: 5vh 0 0;
   width: 100%;
 }
 .experience_article {
-  background-color: rgb(235,235,235);
+  background: rgb(252,74,54);
+  background: linear-gradient(313deg, rgba(252,74,54,1) 0%, rgba(210,41,22,1) 100%);
   border-radius: 1em;
-  box-shadow: 2px 2px rgb(252,74,54);
-  color: rgb(252,74,54);
+  box-shadow: 2px 2px rgb(235,235,235);
+  color: rgb(235,235,235);
+  height: 30vh;
   margin: auto auto 5vh;
-
-  height: 20vh;
+  padding: 3vh 1vw;
   width: 60%;
+
+}
+
+.experience_article h2 {
+
+  font-size: 1.5em;
+  height: 15%;
+
+}
+
+.experience_article h2:first-child {
+  font-size: 2em;
+  margin-bottom: 2vh;
 
 }
 
