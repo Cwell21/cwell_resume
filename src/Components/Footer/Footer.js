@@ -9,18 +9,18 @@ export function Footer(props) {
       <ul>
         <li>
           <a href='#' target='_blank'>
-            <i class="fab fa-linkedin fa-2x"></i>
+            <i class="fab fa-linkedin"></i>
           </a>
         </li>
         <li>
           <span className='contact_phone'>
             Phone: 314.330.8213
           </span>
-          <i class="fas fa-phone-square fa-2x"></i>
+          <i class="fas fa-phone-square"></i>
         </li>
         <li>
           <a href='mailto:mcaldwell21@cwell21.com'>
-            <i class="fas fa-envelope fa-2x"></i>
+            <i class="fas fa-envelope"></i>
           </a>
         </li>
       </ul>

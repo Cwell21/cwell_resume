@@ -15,11 +15,11 @@
 
 #experience header h1 {
   color: rgb(252,74,54);
-  font-size: 3em;
+  font-size: 5vh;
 }
 
 .experience_header:after {
-  border-bottom: 2px solid rgb(252,74,54);
+  border-bottom: 3px solid rgb(252,74,54);
   content: '';
   display: block;
   margin: 3vh auto 0 ;
