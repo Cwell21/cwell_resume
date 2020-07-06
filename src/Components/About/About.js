@@ -9,6 +9,18 @@ export function About(props) {
         <h1>About Me</h1>
         <h4>I'm a budding front end developer</h4>
       </header>
+      <address className='about_stats'>
+        <ul>
+          <li>B.S. Marketing - Missouri State University</li>
+          <li>Certificate - HTML5/CSS3 for Responsive Web Design - UW - PCE</li>
+          <li>
+            <a href='mailto:mcaldwell@cwell21.com'>
+              <i class="fas fa-envelope"></i>
+                mcaldwell@cwell21.com
+            </a>
+          </li>
+        </ul>
+      </address>
       <section className='about_section'>
         <article className='about_info' id='about_description'>
           <p>
@@ -23,15 +35,6 @@ export function About(props) {
         <figure className='about_info' id='about_figure'>
           <i class="fas fa-user-tie fa-5x"></i>
         </figure>
-        <article className='about_info' id='about_stats'>
-          <h2>STATS</h2>
-          <p>
-            <h4>NAME:<span> Matt Caldwell</span></h4><br />
-
-            <h4>Email:<span> <a href='mailto:mcaldwell@cwell21.com'>mcaldwell@cwell21.com</a></span></h4><br />
-
-          </p>
-        </article>
       </section>
     </article>
   );

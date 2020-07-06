@@ -6,22 +6,27 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
-  padding: 15vh 0 0;
+  padding: 5vh 0 0;
+  width: 100%;
 
 }
 
 .about_header {
-
+  height: 10vh;
   width: 75%;
 
 }
 
 .about_header h1 {
   font-size: 3em;
+  height: 50%;
 }
 
 .about_header h4 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  height: 50%;
+  line-height: 5vh;
+
 }
 
 .about_section {
@@ -33,7 +38,7 @@
 }
 
 .about_info {
-  border: 1px solid rgb(252,74,54);
+
   border-radius: 1em;
   box-shadow: 2px 2px 5px rgb(10,10,30);
   display: flex;
@@ -51,7 +56,8 @@
 }
 
 #about_description p {
-  font-size: 1.25em;
+  float: right;
+  font-size: 2vh;
   line-height: 3.5vh;
   margin: auto;
   padding: 1vh 3vw 0;
@@ -59,31 +65,48 @@
   width: 100%;
 }
 
-#about_stats {
-  align-items: center;
+.about_stats {
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
+  flex-direction: column;
+  height: 3vh;
+  width: 100%;
 }
 
-#about_stats h2 {
-  font-size: 2.25em;
-}
-#about_stats p {
+.about_stats ul {
 
-  line-height: 1.25em;
-}
-
-#about_stats h4 {
-  font-size: 1.5em;
+  height: 100%;
+  margin: auto;
+  width: 100%;
 }
 
-#about_stats h4 > span {
-
-  font-size: 1em;
+.about_stats li {
+  display: inline-block;
+  margin: .5vh 1vw;
+  width: auto;
 }
 
-#about_stats h4 > span > a {
-  color: red;
-  text-decoration: none;
+.about_stats li a {
+  color: rgb(252, 74, 54);
+  text-decoration:none;
+}
+
+.about_stats li i {
+  margin-right: .5vh;
+}
+
+/* .about_header:before {
+  border-bottom: 2px solid rgb(252,74,54);
+  content: '';
+  display: inline-block;
+  margin: auto;
+  width: 30%;
+} */
+
+.about_stats:after {
+  border-bottom: 4px solid rgb(252,74,54);
+  border-radius: 5px;
+  content: '';
+  display: inline-block;
+  margin: 3vh auto 0;
+  width: 30%;
 }

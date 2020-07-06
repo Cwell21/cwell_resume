@@ -13,7 +13,9 @@ export function Footer(props) {
           </a>
         </li>
         <li>
-          <span className='contact_phone'>314.330.8213</span>
+          <span className='contact_phone'>
+            Phone: 314.330.8213
+          </span>
           <i class="fas fa-phone-square fa-2x"></i>
         </li>
         <li>
