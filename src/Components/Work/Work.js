@@ -46,8 +46,6 @@ const work_projects = [
   },
 ]
 
-
-
 export function Work(props) {
 
   const display_projects = work_projects.map(project => {
@@ -58,15 +56,18 @@ export function Work(props) {
 
     return(
       <section className='work_card' style={portfolio_styles}>
-        <h3>{project.name}</h3>
-
+        <a href='#' target='_blank'>
+          <h3>{project.name}</h3>
+          <h4>{project.project_desc}</h4>
+          <h4>{project.project_location}</h4>
+        </a>
       </section>
     )
   })
 
-
   return(
     <article id='work' className='site_article'>
+      <h2>CURRENT CAREER PROJECTS</h2>
       {display_projects}
     </article>
   )

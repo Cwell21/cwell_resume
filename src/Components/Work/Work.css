@@ -4,15 +4,48 @@
 
   align-items: flex-start;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 15vh 10vw 0;
+  flex-flow: row-reverse nowrap;
+  height: 75vh;
+  justify-content: center;
+  padding: 15vh 0 0;
+  position: relative;
+}
+
+#work h2 {
+  font-size: 3vh;
+  position: absolute;
+  top:5vh;
 }
 
 .work_card {
 
-  background-size: cover;
+  background-color: rgb(42,0,126);
+  border-radius: 15px;
+  box-shadow: 5px  0 10px rgb(5,5,5);
   height: 30vh;
-  width: 25vw;
+  margin-right: -5vw;
+  padding: 2vh 1vw;
+  transition: .5s;
+  width: 15vw;
 
-}
+  }
+
+  .work_card a {
+    text-decoration: none;
+  }
+
+  .work_card h3 {
+  color: rgb(235,235,235);
+  }
+
+  .work_card h4 {
+  color: rgb(235,235,235);
+  }
+
+  /* CARD HOVER */
+  .work_card:hover {
+
+  margin-right: -4vw;
+  margin-top: -3vh;
+  z-index:1;
+  }

@@ -34,29 +34,36 @@ export function Navigation(props) {
     }
 
     if(scrollPos >= 0 && scrollPos < viewportHeight * .75) {
+      // SPLASH SECTION
       clearBackground();
       elMenu.style.display = 'none';
     }else if(scrollPos >= viewportHeight * .75 && scrollPos < viewportHeight * 1.75) {
+        // ABOUT SECTION
         elMenu.style.display = 'block';
         clearBackground();
         elSiteLinks[1].style.backgroundColor = selectBackground;
     } else if(scrollPos >= viewportHeight * 1.75 && scrollPos < viewportHeight * 2.75) {
+        //EXPERIENCE SECTION
         clearBackground();
         elMenu.style.display = 'block';
         elSiteLinks[2].style.backgroundColor = selectBackground;
-    } else if(scrollPos >= viewportHeight * 2.75 && scrollPos < viewportHeight * 3.75) {
+    } else if(scrollPos >= viewportHeight * 2.75 && scrollPos < viewportHeight * 3.25) {
+        // SKILLS SECTION
         clearBackground();
         elMenu.style.display = 'block';
         elSiteLinks[3].style.backgroundColor = selectBackground;
-    } else if(scrollPos >= viewportHeight * 3.75 && scrollPos < viewportHeight * 4.75) {
+    } else if(scrollPos >= viewportHeight * 3.25 && scrollPos < viewportHeight * 3.75) {
+        // PORTFOLIO SECTION
         clearBackground();
         elMenu.style.display = 'block';
         elSiteLinks[4].style.backgroundColor = selectBackground;
-    } else if(scrollPos >= viewportHeight * 4.75 && scrollPos < viewportHeight * 5.75) {
+    } else if(scrollPos >= viewportHeight * 3.75 && scrollPos < viewportHeight * 4.25) {
+        // WORK SECTION
         clearBackground();
         elMenu.style.display = 'block';
         elSiteLinks[5].style.backgroundColor = selectBackground;
     } else {
+        // CLEAR OUT
         clearBackground();
 
     }

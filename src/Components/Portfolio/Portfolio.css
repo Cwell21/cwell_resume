@@ -5,9 +5,17 @@
   align-items: flex-start;
   display: flex;
   flex-flow: row-reverse nowrap;
+  height: 75vh;
   justify-content: center;
   padding: 15vh 0 0;
+  position: relative;
 
+}
+
+#portfolio h2 {
+  font-size: 3vh;
+  position: absolute;
+  top:5vh;
 }
 
 .portfolio_card {
@@ -21,6 +29,10 @@
   transition: .5s;
   width: 15vw;
 
+}
+
+.portfolio_card a {
+  text-decoration: none;
 }
 
 .portfolio_card h3 {

@@ -7,6 +7,7 @@
   left: 2vw;
   top: 2vh;
   width: 10vw;
+  z-index: 1;
 }
 
 .nav_menu {
