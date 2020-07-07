@@ -13,10 +13,12 @@
 }
 
 #portfolio h2 {
-  font-size: 3vh;
+  color: rgb(252,74,54);
+  font-size: 5vh;
   position: absolute;
   top:5vh;
 }
+
 
 .portfolio_card {
 

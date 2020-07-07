@@ -70,9 +70,3 @@ export function Portfolio(props) {
     </article>
   )
 }
-
-    //
-    //
-    // let portfolio_styles = {
-    //   backgroundImage: `url(${project.pic_image})`
-    // }
