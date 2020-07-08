@@ -8,10 +8,9 @@
   width: 100%;
 }
 .experience_article {
-
   background:
     linear-gradient(135deg, transparent 50px, rgb(10,0,50) 0) top left,
-    linear-gradient(-45deg, transparent 50px, rgb(10,0,50) 0) bottom right;
+    linear-gradient(45deg, transparent 50px, rgb(10,0,50) 0) bottom left;
   background-color: rgb(252,74,54);
   background-size: 100% 52%;
   background-repeat: no-repeat;
@@ -22,6 +21,23 @@
   margin: 0 1vw;
   padding: 3vh 1vw 1vh;
   width: 30%;
+
+}
+
+.article_job .experience_article:last-child{
+  background:
+    linear-gradient(-135deg, transparent 50px, rgb(10,0,50) 0) top right,
+    linear-gradient(-45deg, transparent 50px, rgb(10,0,50) 0) bottom right;
+    background-color: rgb(252,74,54);
+    background-size: 100% 52%;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 10px rgb(10,0,50);
+    color: rgb(235,235,235);
+    display: inline-block;
+    height: 100%;
+    margin: 0 1vw;
+    padding: 3vh 1vw 1vh;
+    width: 30%;
 
 }
 
