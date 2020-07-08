@@ -65,7 +65,7 @@ export function Portfolio(props) {
 
   return(
     <article id='portfolio' className='site_article'>
-      <h2>Web Site Projects</h2>
+      <h2>What I've coded</h2>
       {display_projects}
     </article>
   )

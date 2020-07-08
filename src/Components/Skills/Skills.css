@@ -3,4 +3,50 @@
 #skills {
 
   height: 50vh;
+  padding: 5vh 0 0;
+}
+
+#skills h1 {
+  color: rgb(252,74,54);
+  font-size: 5vh;
+}
+
+.skills_row {
+
+  display: flex;
+  justify-content: space-between;
+  margin: 10vh auto 0;
+  padding: 0 10vw;
+  width: 75%
+}
+
+
+.education {
+border: 1px solid red;
+  height: 25vh;
+  width: 25vw;
+}
+
+.school {
+
+  margin: 2vh 0;
+}
+
+.education li {
+  text-align: left;
+}
+
+.education li:first-child {
+  font-weight: 800;
+}
+
+.tech_skills {
+
+  height: 25vh;
+  width: 25vw;
+}
+
+.tech_skills li {
+  height: calc(25vh / 5);
+  text-align: left;
 }
