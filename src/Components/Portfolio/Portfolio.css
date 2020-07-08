@@ -3,6 +3,7 @@
 #portfolio {
 
   align-items: flex-start;
+  background: linear-gradient(152deg, rgba(42,0,126,1) 0%, rgba(24,0,70,1) 100%);
   display: flex;
   flex-flow: row-reverse nowrap;
   height: 75vh;
@@ -15,6 +16,7 @@
 #portfolio h2 {
   color: rgb(252,74,54);
   font-size: 5vh;
+  margin-bottom: 15vh;
   position: absolute;
   top:5vh;
 }
@@ -22,7 +24,7 @@
 
 .portfolio_card {
 
-  background-color: rgb(42,0,126);
+  background-color: rgb(252,74,54);
   border-radius: 15px;
   box-shadow: 5px  0 10px rgb(5,5,5);
   height: 30vh;
