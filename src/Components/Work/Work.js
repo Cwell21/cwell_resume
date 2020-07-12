@@ -51,7 +51,8 @@ export function Work(props) {
   const display_projects = work_projects.map(project => {
 
     let portfolio_styles = {
-      backgroundImage: `url(${project.pic_image})`
+      backgroundImage: `url(${project.pic_image})`,
+      backgroundSize: 'cover'
     }
 
     return(
