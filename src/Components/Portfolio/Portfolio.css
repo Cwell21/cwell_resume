@@ -49,22 +49,30 @@
   box-shadow: 5px  0 10px rgb(5,5,5);
   height: 30vh;
   margin-right: -5vw;
-  padding: 2vh 1vw;
   transition: .5s;
   width: 15vw;
 
 }
 
 .portfolio_card a {
+  background: rgba(100,100,100,.8);
+  border-radius: 15px;
+  display: inline-block;
+  height: 100%;
+  padding: 2vh 1vw;
   text-decoration: none;
+  width: 100%;
+  z-index: 1;
 }
 
 .portfolio_card h3 {
   color: rgb(235,235,235);
+  font-weight: 800;
 }
 
 .portfolio_card h4 {
   color: rgb(235,235,235);
+  font-weight: 600;
 }
 
 /* CARD HOVER */
@@ -73,4 +81,8 @@
   margin-right: -4vw;
   margin-top: -3vh;
   z-index:1;
+}
+
+.portfolio_card:hover a {
+  background-color: rgba(100,100,100,.4);
 }

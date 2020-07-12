@@ -50,12 +50,15 @@ export function Portfolio(props) {
 
   const display_projects = portfolio_projects.map(project => {
 
+    const sectionStyles = {
+      backgroundImage: `url(${project.pic_image})`,
+      backgroundSize: 'cover'
+    }
 
     return(
-      <section className='portfolio_card'>
+      <section className='portfolio_card' style={sectionStyles}>
         <a href='#' target='_blank'>
           <h3>{project.name}</h3>
-          <img src={project.pic_image} />
           <h4>{project.project_desc}</h4>
           <h4>{project.project_type}</h4>
         </a>
