@@ -1,8 +1,8 @@
 /* STYLES FOR SKILLS COMPONENT */
 
 #skills {
-
-  height: 50vh;
+  color: rgb(10,0,50);
+  height: 60vh;
   padding: 5vh 0 0;
 }
 
@@ -11,24 +11,33 @@
   font-size: 5vh;
 }
 
+#skills h1:after {
+  border-bottom: 4px solid rgb(252,74,54);
+  border-radius: 5px;
+  content: '';
+  display: inline-block;
+  margin: 0 auto 1vh;
+  width: 30%;
+}
+
 .skills_row {
 
   display: flex;
   justify-content: space-between;
-  margin: 10vh auto 0;
-  padding: 0 10vw;
+  margin: 2.5vh auto 0;
+  padding: 0 2vw;
   width: 75%
 }
 
 
 .education {
-border: 1px solid red;
+
   height: 25vh;
   width: 25vw;
 }
 
 .school {
-
+  font-size: 1.25em;
   margin: 2vh 0;
 }
 
@@ -42,11 +51,53 @@ border: 1px solid red;
 
 .tech_skills {
 
+  align-items: space-around;
+  display: flex;
+  flex-flow: column nowrap;
   height: 25vh;
-  width: 25vw;
+  justify-content: flex-start;
+  width: 30vw;
 }
 
-.tech_skills li {
-  height: calc(25vh / 5);
+.tech_skill_items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.skill_item {
+  background-color: rgb(252,74,54);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(10,0,50);
+  color: rgb(235,235,235);
+  cursor: pointer;
+  display: inline-block;
+  margin: .5vh .5vw;
+  padding: 1vh 0;
+  width: 28%;
+}
+
+.skill_item:hover .skill_item_sub_menu{
+
+  background-color: rgb(10,0,50);
+  color: rgb(252,74,54);
+  display: block;
+}
+
+.skill_item_sub_menu {
+  display: none;
+  left: -12vw;
+  padding: 2vh 0;
+  position: absolute;
+  top:1vh;
+}
+
+.skill_item_sub_menu span {
+
+  display: block;
+  padding-left: 2vh;
   text-align: left;
+  width: 12vw;
+
 }
