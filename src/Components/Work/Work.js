@@ -11,38 +11,56 @@ const work_projects = [
   {
     name: 'Centene HQ',
     pic_image: centene,
-    project_desc: 'Centene HQ',
-    project_location: 'Clayton, MO'
+    project_desc: 'New headquarters addition for Centenne Corporation',
+    project_location: 'Clayton, MO',
+    project_link: 'localhost:80//cms/index.php',
+    project_role: 'Estimator',
+    project_value: '~$25,000,000'
   },
   {
     name: 'Denver Art Museum',
     pic_image: dam,
     project_desc: 'Denver Art Museum',
-    project_location: 'Denver, CO'
+    project_location: 'Denver, CO',
+    project_link: 'localhost://cms/index.php',
+    project_role: 'Estimator',
+    project_value: '~$8,000,000'
   },
   {
     name: 'DIA - Westin Hotel',
     pic_image: dia,
     project_desc: 'Westin DIA',
-    project_location: 'Denver, CO'
+    project_location: 'Denver, CO',
+    project_link: 'localhost://cms/index.php',
+    project_role: 'Estimator',
+    project_value: '~$25,000,000'
   },
   {
     name: 'Wolfpoint East',
     pic_image: wolfpoint,
     project_desc: 'Wolfpoint East',
-    project_location: 'Chicago, IL'
+    project_location: 'Chicago, IL',
+    project_link: 'localhost://cms/index.php',
+    project_role: 'Estimator',
+    project_value: '~$45,000,000'
   },
   {
     name: 'DIA - Westin Hotel',
     pic_image: dia,
     project_desc: 'Westin DIA',
-    project_location: 'Denver, CO'
+    project_location: 'Denver, CO',
+    project_link: 'localhost://cms/index.php',
+    project_role: 'Estimator',
+    project_value: '~$25,000,000'
   },
   {
     name: 'DIA - Westin Hotel',
     pic_image: dia,
     project_desc: 'Westin DIA',
-    project_location: 'Denver, CO'
+    project_location: 'Denver, CO',
+    project_link: 'localhost://cms/index.php',
+    project_role: 'Estimator',
+    project_value: '~$25,000,000'
   },
 ]
 
@@ -52,15 +70,17 @@ export function Work(props) {
 
     let portfolio_styles = {
       backgroundImage: `url(${project.pic_image})`,
-      backgroundSize: 'cover'
-    }
+      backgroundSize: 'cover',
+  }
 
     return(
       <section className='work_card' style={portfolio_styles}>
-        <a href='#' target='_blank'>
-          <h3>{project.name}</h3>
+        <a href={project.project_link} target='_blank'>
+          <h3>Project - {project.name}</h3>
           <h4>{project.project_desc}</h4>
-          <h4>{project.project_location}</h4>
+          <h4>Location: {project.project_location}</h4>
+          <h4>Role: {project.project_role}</h4>
+          <h4>Value: {project.project_value}</h4>
         </a>
       </section>
     )
