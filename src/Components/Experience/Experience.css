@@ -2,6 +2,7 @@
 
 
 #experience {
+
   align-items: center;
   background: rgb(42,0,126);
   background: linear-gradient(152deg, rgba(42,0,126,1) 0%, rgba(24,0,70,1) 100%);
@@ -14,17 +15,21 @@
 
 }
 
-#experience header h1 {
+.experience_header {
+
   color: rgb(252,74,54);
   font-size: 5vh;
+  margin: 0 auto;
+  width: 75%;
 }
 
 .experience_header:after {
-  border-bottom: 3px solid rgb(252,74,54);
+  border-bottom: 4px solid rgb(252,74,54);
+  border-radius: 5px;
   content: '';
-  display: block;
-  margin: 3vh auto 0 ;
-  width: 75%;
+  display: inline-block;
+  margin: 0 2vw 1vh;
+  width: 50%;
 }
 
 .experience_section {

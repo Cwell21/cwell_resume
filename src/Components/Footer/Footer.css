@@ -7,7 +7,7 @@
   height: 5vh;
   left: 0;
   position: absolute;
-  top: calc(5 * 100vh - 5vh);
+  top: calc(5 * 100vh + 5vh);
   width: 100%;
 }
 
@@ -36,9 +36,9 @@
   border-radius: 5px;
   box-shadow: 2px 2px rgb(100,100,100);
   display: none;
-  font-size: 2.25vh;
+  font-size: 2vh;
   left: -5vw;
-  padding: 1vh 2vw;
+  padding: .5vh 2vw;
   position: absolute;
   top: -8vh;
 

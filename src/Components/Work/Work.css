@@ -2,20 +2,30 @@
 
 #work {
 
-  align-items: flex-start;
+  align-items: center;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(225,225,225,1) 100%);
   display: flex;
-  flex-flow: row-reverse nowrap;
+  flex-flow: column nowrap;
   height: 75vh;
   justify-content: center;
-  padding: 15vh 0 0;
   position: relative;
 }
 
 #work h2 {
   color: rgb(252,74,54);
   font-size: 5vh;
-  position: absolute;
-  top:5vh;
+  margin: 0 auto;
+  width: 75%;
+}
+
+#work h2:before {
+  border-bottom: 4px solid rgb(252,74,54);
+  border-radius: 5px;
+  content: '';
+  display: inline-block;
+  margin: 0 2vw 1vh;
+  width: 50%;
 }
 
 .work_card {

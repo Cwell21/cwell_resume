@@ -68,7 +68,9 @@ export function Work(props) {
   return(
     <article id='work' className='site_article'>
       <h2>What I've built</h2>
-      {display_projects}
+      <section className='slides'>
+        {display_projects}
+      </section>
     </article>
   )
 }

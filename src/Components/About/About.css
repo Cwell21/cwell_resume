@@ -2,6 +2,8 @@
 
 #about {
   align-items: center;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(225,225,225,1) 100%);
   color: rgb(252,74,54);
   display: flex;
   flex-flow: column nowrap;

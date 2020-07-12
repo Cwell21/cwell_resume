@@ -2,23 +2,43 @@
 
 #portfolio {
 
-  align-items: flex-start;
+  align-items: center;
   background: linear-gradient(152deg, rgba(42,0,126,1) 0%, rgba(24,0,70,1) 100%);
   display: flex;
-  flex-flow: row-reverse nowrap;
+  flex-flow: column nowrap;
   height: 75vh;
   justify-content: center;
-  padding: 15vh 0 0;
   position: relative;
 
 }
 
 #portfolio h2 {
-  color: rgb(252,74,54);
-  font-size: 5vh;
-  margin-bottom: 15vh;
-  position: absolute;
-  top:5vh;
+
+    color: rgb(252,74,54);
+    font-size: 5vh;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#portfolio h2:after {
+  border-bottom: 4px solid rgb(252,74,54);
+  border-radius: 5px;
+  content: '';
+  display: inline-block;
+  margin: 0 2vw 1vh;
+  width: 50%;
+}
+
+.slides {
+
+  align-items: center;
+
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  height: 50vh;
+  justify-content: center;
+  position: relative;
+  width: 100%;
 }
 
 

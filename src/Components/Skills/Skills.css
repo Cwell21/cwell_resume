@@ -1,23 +1,28 @@
 /* STYLES FOR SKILLS COMPONENT */
 
 #skills {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(225,225,225,1) 100%);
   color: rgb(10,0,50);
   height: 60vh;
   padding: 5vh 0 0;
 }
 
 #skills h1 {
-  color: rgb(252,74,54);
-  font-size: 5vh;
+
+    color: rgb(252,74,54);
+    font-size: 5vh;
+    margin: auto;
+    width: 75%;
 }
 
-#skills h1:after {
+#skills h1:before {
   border-bottom: 4px solid rgb(252,74,54);
   border-radius: 5px;
   content: '';
   display: inline-block;
-  margin: 0 auto 1vh;
-  width: 30%;
+  margin: 0 2vw 1vh;
+  width: 50%;
 }
 
 .skills_row {
