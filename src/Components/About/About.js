@@ -7,7 +7,6 @@ export function About(props) {
     <article id='about' className='site_article'>
       <header className='about_header'>
         <h1>About Me</h1>
-        <h4>I'm a budding front end developer</h4>
       </header>
       <address className='about_stats'>
         <ul>
@@ -31,11 +30,19 @@ export function About(props) {
             Pellentesque habitant morbi tristique senectus et netus et
             malesuada fames ac turpis egestas.
           </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nam ac magna ultrices, viverra nulla nec, ultricies ante.
+            Integer non libero congue, malesuada justo et, commodo velit.
+            Mauris in sapien tristique, elementum sem et, pretium dolor.
+            Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas.
+          </p>
         </article>
         <figure className='about_info' id='about_figure'>
-          <i class="fas fa-user-tie fa-5x"></i>
+          <i class="fas fa-user-tie fa-2x"></i>
         </figure>
       </section>
     </article>
   );
-};
+}
