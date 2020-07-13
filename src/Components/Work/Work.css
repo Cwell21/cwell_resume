@@ -40,7 +40,7 @@
   }
 
   .work_card a {
-    background: rgba(100,100,100,.8);
+
     border-radius: 15px;
     display: inline-block;
     height: 100%;
@@ -51,18 +51,47 @@
 
   }
 
-  .work_card h3 {
-  color: rgb(10,0,50);
-  font-weight: 800;
+  .work_card_information {
+    /* background-color: rgb(252,74,54); */
 
+    bottom: -30vh;
+    height: 0;
+    left: .5vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    text-align: left;
+    width: 14vw;
   }
 
-  .work_card h4 {
-    color: rgb(10,0,50);
-    font-weight: 600;
+  .work_card_information li {
 
+    background-color: rgb(252,74,54);
+    color: rgb(235,235,235);
+    padding: .5vh .5vw;
+    text-align: left;
+    width: 100%;
   }
 
+  .work_card_information > li:first-child {
+    font-size: 1.25em;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .work_card_information > li:nth-child(2) {
+    font-weight: 800;
+  }
+
+  .work_card_information li > a {
+
+    background: none;
+    display: inline-block;
+    color: rgb(235,235,235);
+    padding:0;
+    width: 100%;
+
+  }
 
   /* CARD HOVER */
   .work_card:hover {
@@ -72,6 +101,6 @@
   z-index:1;
   }
 
-  .work_card:hover a {
-    background-color: rgba(100,100,100,.4);
+  .work_card:hover .work_card_information {
+    min-height: 35vh;
   }

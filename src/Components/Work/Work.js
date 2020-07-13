@@ -75,13 +75,14 @@ export function Work(props) {
 
     return(
       <section className='work_card' style={portfolio_styles}>
-        <a href={project.project_link} target='_blank'>
-          <h3>Project - {project.name}</h3>
-          <h4>{project.project_desc}</h4>
-          <h4>Location: {project.project_location}</h4>
-          <h4>Role: {project.project_role}</h4>
-          <h4>Value: {project.project_value}</h4>
-        </a>
+        <a href={project.project_link} target='_blank'></a>
+        <ul className='work_card_information'>
+          <li>Project - {project.name}</li>
+          <li>{project.project_desc}</li>
+          <li>Location: {project.project_location}</li>
+          <li>Role: {project.project_role}</li>
+          <li>Value: {project.project_value}</li>
+        </ul>
       </section>
     )
   })
