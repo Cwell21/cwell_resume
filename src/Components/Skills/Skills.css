@@ -106,3 +106,39 @@
   width: 12vw;
 
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:1024px) {
+
+  #skills {
+    padding-top: 2vh;
+  }
+
+  #skills h1 {
+    width:100%;
+  }
+  #skills h1:before {
+    display: none;
+  }
+
+  .skills_row {
+    flex-direction: column;
+  }
+
+  .education {
+    width:100%;
+  }
+
+  .tech_skills {
+    width:100%;
+  }
+
+  .tech_skill_items {
+    justify-content: flex-end;
+  }
+  .skill_item_sub_menu {
+    width: 20vw;
+  }
+
+}
