@@ -28,7 +28,7 @@
 
 .about_section {
   align-items: center;
-  height: auto;
+  height: 60vh;
   justify-content: center;
   margin: 15vh 0 0;
   position: relative;
@@ -92,7 +92,7 @@
 .about_stats {
   display: flex;
   flex-direction: column;
-  height: 2vh;
+  height: auto;
   margin-top: 1vh;
   width: 100%;
 }
@@ -107,7 +107,7 @@
 .about_stats li {
   display: inline-block;
   margin: .5vh 1vw 0;
-  width: auto;
+  width: 100%;
 }
 
 .about_stats li a {
@@ -137,4 +137,31 @@
   display: inline-block;
   margin: 0 auto 1vh;
   width: 30%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  .about_section {
+
+    margin-top: 5vh;
+    padding: 0 2vw;
+    width: 100%;
+  }
+
+  #about_figure {
+    display: none;
+  }
+
+  #about_description {
+    height: auto;
+    left:0;
+    padding: 0 2vw 0;
+    width: 100vw;
+  }
+
+  #about_description p {
+    margin-bottom: 2vh;
+  }
+
 }

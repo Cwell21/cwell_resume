@@ -66,3 +66,30 @@
   padding: 1vh 0;
   text-align: left;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:1024px) {
+
+  .article_job {
+    align-items: space-around;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1vw;
+  }
+
+  .experience_article {
+    background:
+      linear-gradient(-135deg, transparent 50px, rgb(10,0,50) 0) top right,
+      linear-gradient(-45deg, transparent 50px, rgb(10,0,50) 0) bottom right;
+
+    width:100%;
+  }
+  .article_job .experience_article:last-child{
+    background:
+      linear-gradient(135deg, transparent 50px, rgb(10,0,50) 0) top left,
+      linear-gradient(45deg, transparent 50px, rgb(10,0,50) 0) bottom left;
+    width:100%;
+  }
+
+}
