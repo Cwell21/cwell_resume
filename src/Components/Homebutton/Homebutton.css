@@ -1,7 +1,7 @@
 /* STYLES FOR HOME BUTTON COMPONENT */
 
 .btn_home {
-border: 1px solid green;
+
   background-color: rgb(252,74,54);
   bottom: 0;
   display: flex;
@@ -12,12 +12,9 @@ border: 1px solid green;
 }
 
 .btn_home a {
-
   background-color: rgb(42,0,126);
-
 }
 
 .btn_home i {
   color: rgb(252,74,54);
-
 }

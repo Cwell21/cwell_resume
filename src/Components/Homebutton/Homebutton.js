@@ -18,9 +18,9 @@ export function Homebutton(props) {
 
   return(
     <div className='btn_home'>
-      <a href='#about' className='item_button' onClick={props.handleClick()}>
-        <i class="fas fa-arrow-down fa-2x"></i>
-      </a>
+    <a href='#about' className='item_button' onClick={props.handleClick()}>
+      <i class="fas fa-arrow-down fa-2x"></i>
+    </a>
     </div>
   )
 }

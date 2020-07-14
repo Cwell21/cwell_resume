@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+
 // IMPORT CHILD COMPONENTS
 import { Splash } from './Components/Splash/Splash.js';
 import { About } from './Components/About/About.js';
