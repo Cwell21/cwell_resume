@@ -8,7 +8,7 @@
   padding: 5vh 0 0;
 }
 
-#skills h1 {
+#skills h2 {
 
     color: rgb(252,74,54);
     font-size: 5vh;
@@ -16,12 +16,12 @@
     width: 75%;
 }
 
-#skills h1:before {
-  border-bottom: 4px solid rgb(252,74,54);
+#skills h2:before {
+  border-bottom: .5vh solid rgb(252,74,54);
   border-radius: 5px;
   content: '';
   display: inline-block;
-  margin: 0 2vw 1vh;
+  margin: 1vh 2vw;
   width: 50%;
 }
 
@@ -115,11 +115,20 @@
     padding-top: 2vh;
   }
 
-  #skills h1 {
+  #skills h2 {
     width:100%;
   }
-  #skills h1:before {
+  #skills h2:before {
     display: none;
+  }
+
+  #skills h2:after {
+    border-bottom: .5vh solid rgb(252,74,54);
+    border-radius: 5px;
+    content: '';
+    display: inline-block;
+    margin: 1vh 2vw;
+    width: 50%;
   }
 
   .skills_row {

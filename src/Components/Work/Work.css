@@ -104,3 +104,25 @@
   .work_card:hover .work_card_information {
     min-height: 35vh;
   }
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:1024px) {
+
+  #work h2:before {
+    display: none;
+
+  }
+
+
+  #work h2:after {
+    border-bottom: 4px solid rgb(252,74,54);
+    border-radius: 5px;
+    content: '';
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+
+
+}

@@ -79,16 +79,12 @@
   }
 
   .experience_article {
-    background:
-      linear-gradient(-135deg, transparent 50px, rgb(10,0,50) 0) top right,
-      linear-gradient(-45deg, transparent 50px, rgb(10,0,50) 0) bottom right;
-
+    background-color: rgb(10,0,50);
+    margin: 2vh 0;
     width:100%;
   }
   .article_job .experience_article:last-child{
-    background:
-      linear-gradient(135deg, transparent 50px, rgb(10,0,50) 0) top left,
-      linear-gradient(45deg, transparent 50px, rgb(10,0,50) 0) bottom left;
+    background-color: rgb(10,0,50);
     width:100%;
   }
 

@@ -24,11 +24,11 @@
 }
 
 .experience_header:after {
-  border-bottom: 4px solid rgb(252,74,54);
+  border-bottom: .5vh solid rgb(252,74,54);
   border-radius: 5px;
   content: '';
   display: inline-block;
-  margin: 0 2vw 1vh;
+  margin: 1vh 1vw;
   width: 50%;
 }
 
@@ -40,7 +40,14 @@
 /* MEDIA QUERIES */
 
 @media only screen and (max-width:1024px) {
+  #experience{
 
-  
+    padding: 5vh 1vw 0;
+  }
+
+  .experience_section {
+    align-items: space-around;
+  }
+
 
 }

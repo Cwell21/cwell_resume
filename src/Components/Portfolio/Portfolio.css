@@ -1,7 +1,7 @@
 /* STYLES FOR PORTFOLIO COMPONENT */
 
 #portfolio {
-
+border: 1px solid red;
   align-items: center;
   background: linear-gradient(152deg, rgba(42,0,126,1) 0%, rgba(24,0,70,1) 100%);
   display: flex;
@@ -21,11 +21,11 @@
 }
 
 #portfolio h2:after {
-  border-bottom: 4px solid rgb(252,74,54);
+  border-bottom: .5vh solid rgb(252,74,54);
   border-radius: 5px;
   content: '';
   display: inline-block;
-  margin: 0 2vw 1vh;
+  margin: 1vh 2vw;
   width: 50%;
 }
 
