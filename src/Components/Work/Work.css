@@ -54,7 +54,7 @@
   .work_card_information {
     /* background-color: rgb(252,74,54); */
 
-    bottom: -30vh;
+    bottom: -15vh;
     height: 0;
     left: .5vw;
     margin: 0 auto;
@@ -102,7 +102,7 @@
   }
 
   .work_card:hover .work_card_information {
-    min-height: 35vh;
+    min-height: 20vh;
   }
 
 /* MEDIA QUERIES */
@@ -124,5 +124,27 @@
     width: 50%;
   }
 
+  .slides {
+    flex-wrap: wrap;
+
+  }
+
+  .work_card {
+    height: 15vh;
+    margin: 5vh 5vw;
+    width: 20vw;  
+  }
+  
+  .work_card_information {
+
+    background-color: rgba(125,125,125,.8);
+    border-radius: 15px;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    text-align: left;
+    top:0;
+    width: 100%;
+  }
 
 }

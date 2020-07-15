@@ -1,7 +1,7 @@
 /* STYLES FOR PORTFOLIO COMPONENT */
 
 #portfolio {
-border: 1px solid red;
+
   align-items: center;
   background: linear-gradient(152deg, rgba(42,0,126,1) 0%, rgba(24,0,70,1) 100%);
   display: flex;
@@ -66,8 +66,8 @@ border: 1px solid red;
 
 .portfolio_card_information {
   /* background-color: rgb(252,74,54); */
-
-  bottom: -30vh;
+  background-color: rgb(252,74,54);
+  bottom: -10vh;
   height: 0;
   left: .5vw;
   margin: 0 auto;
@@ -79,7 +79,7 @@ border: 1px solid red;
 
 .portfolio_card_information li {
 
-  background-color: rgb(252,74,54);
+  
   color: rgb(235,235,235);
   padding: .5vh .5vw;
   text-align: left;
@@ -115,5 +115,32 @@ border: 1px solid red;
 }
 
 .portfolio_card:hover .portfolio_card_information {
-  min-height: 35vh;
+  min-height: 20vh;
+}
+
+@media only screen and (max-width:1024px) {
+ 
+  .slides {
+    flex-wrap: wrap;
+
+  }
+
+  .portfolio_card {
+    height: 15vh;
+    margin: 5vh 5vw;
+    width: 20vw;  
+  }
+  
+  .portfolio_card_information {
+
+    background-color: rgba(125,125,125,.8);
+    border-radius: 15px;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    text-align: left;
+    top:0;
+    width: 100%;
+  }
+
 }
