@@ -29,6 +29,7 @@
 }
 
 .work_card {
+  background-color: rgb(252,74,54);
   border-radius: 15px;
   box-shadow: 5px  0 10px rgb(5,5,5);
   height: 30vh;
@@ -66,7 +67,7 @@
 
   .work_card_information li {
 
-    background-color: rgb(252,74,54);
+
     color: rgb(235,235,235);
     padding: .5vh .5vw;
     text-align: left;
@@ -132,9 +133,9 @@
   .work_card {
     height: 15vh;
     margin: 5vh 5vw;
-    width: 20vw;  
+    width: 20vw;
   }
-  
+
   .work_card_information {
 
     background-color: rgba(125,125,125,.8);

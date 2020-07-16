@@ -74,7 +74,7 @@
   padding: 2vw 2vw 1vh 7vw;
   top: 0;
   width: 50vw;
-  z-index: 1;
+
 
 }
 #about_description p {
@@ -141,7 +141,6 @@
   .about_section {
     height: 80vh;
     margin-top: 5vh;
-    padding: 0 2vw;
     width: 100%;
   }
 
@@ -152,8 +151,6 @@
   #about_description {
     height: 100%;
     left:0;
-    margin: 0 2vw;
-    padding: 2vh 4vw;
     width: 100vw;
   }
 
