@@ -38,6 +38,7 @@ class App extends React.Component {
 
       // GET FOOTER ELEMENTS
       const elFooter = document.getElementById('site_footer');
+      const elContact = document.getElementById('contact_phone');
 
       // GET VIEPORT HEIGHT AND SCROLL POSITION
       const viewportHeight = window.innerHeight;
@@ -58,9 +59,17 @@ class App extends React.Component {
 
       if(scrollPos > viewportHeight * .25) {
         elFooter.style.top = '95vh';
+        elContact.style.display = 'none';
       } else {
         elFooter.style.top = 0;
+        elContact.style.display = 'inline-block';
       }
+      // 
+      // if(scrollPos > viewportHeight * .0125) {
+      //   elContact.style.display = 'none';
+      // } else {
+      //   elContact.style.display = 'inline-block';
+      // }
 
 
 

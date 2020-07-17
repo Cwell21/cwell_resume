@@ -16,6 +16,9 @@ export function Footer(props) {
           <span className='contact_phone'>
             Phone: 314.330.8213
           </span>
+          <span id='contact_phone'>
+            Phone: 314.330.8213
+          </span>
           <i class="fas fa-phone-square"></i>
         </li>
         <li>

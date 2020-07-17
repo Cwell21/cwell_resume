@@ -45,19 +45,24 @@
 
 }
 
+#contact_phone {
+  background: rgba(24,0,70,1);
+  top: 5vh;
+  box-shadow: 2px 2px rgb(100,100,100);
+  display: inline-block;
+  font-size: 2vh;
+  right: 0;
+  padding: .5vh 2vw;
+  position: fixed;
+
+}
+
 #site_footer li:nth-child(2):hover .contact_phone{
   display: block;
 }
 
 
 @media only screen and (max-width: 1024px) {
-
-  #site_footer {
-
-    position:fixed;
-    top: 97.5vh;
-
-  }
 
   #site_footer ul {
 
