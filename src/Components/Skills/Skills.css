@@ -25,9 +25,29 @@
   width: 50%;
 }
 
+#skills_header {
+
+  display: flex;
+  justify-content: space-between;
+  margin: 5vh auto 0;
+  padding: 0 2vw;
+  width: 75%;
+}
+
+#skills_header > h3:first-child {
+
+  text-align: left;
+  width:25vw;
+}
+
+#skills_header > h3:last-child {
+  width:30vw;
+}
+
 .skills_row {
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 2.5vh auto 0;
   padding: 0 2vw;
@@ -62,6 +82,10 @@
   height: 25vh;
   justify-content: flex-start;
   width: 30vw;
+}
+
+.tech_skills > h3 {
+  display: none;
 }
 
 .tech_skill_items {
@@ -112,7 +136,18 @@
 @media only screen and (max-width:1024px) {
 
   #skills {
+
+    height: auto;
     padding-top: 2vh;
+
+  }
+
+
+  #skills_header > h3:first-child {
+    width:75%;
+  }
+  #skills_header > h3:last-child {
+    display: none;
   }
 
   #skills h2 {
@@ -136,6 +171,7 @@
   }
 
   .education {
+    height: auto;
     width:100%;
   }
 
@@ -150,4 +186,36 @@
     width: 20vw;
   }
 
+}
+
+
+@media only screen and(max-width:976px) {
+
+  #skills {
+    height: auto;
+  }
+
+  #skills_header {
+    padding:0;
+  }
+
+  .skills_row {
+    height: auto;
+  }
+
+  .education {
+    display: flex;
+    flex-flow: row;
+    height: auto;
+  }
+
+  .school {
+    height: auto;
+    margin: 0;
+    width: 30%;
+  }
+
+  .tech_skills {
+    height: auto;
+  }
 }

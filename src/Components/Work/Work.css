@@ -29,7 +29,7 @@
 }
 
 .work_card {
-  background-color: rgb(252,74,54);
+
   border-radius: 15px;
   box-shadow: 5px  0 10px rgb(5,5,5);
   height: 30vh;
@@ -54,7 +54,7 @@
 
   .work_card_information {
     /* background-color: rgb(252,74,54); */
-
+    background-color: rgb(252,74,54);
     bottom: -15vh;
     height: 0;
     left: .5vw;
@@ -110,6 +110,11 @@
 
 @media only screen and (max-width:1024px) {
 
+
+  #work {
+    height: auto;
+  }
+
   #work h2:before {
     display: none;
 
@@ -141,11 +146,16 @@
     background-color: rgba(125,125,125,.8);
     border-radius: 15px;
     bottom: 0;
+    display: none;
     height: 100%;
     left: 0;
     text-align: left;
     top:0;
     width: 100%;
+  }
+
+  .work_card:hover .work_card_information{
+      display: block;
   }
 
 }

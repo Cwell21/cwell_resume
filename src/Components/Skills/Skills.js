@@ -109,13 +109,16 @@ export function Skills(props) {
   return(
     <article id='skills' className='site_article'>
       <h2>Where and what I've learned.</h2>
+      <header id='skills_header'>
+        <h3> Where I've Learned</h3>
+        <h3> What I know </h3>
+      </header>
       <section className='skills_row'>
         <section className='education'>
-        <h3> Where I've Learned</h3>
           {displaySchool}
         </section>
         <aside className='tech_skills'>
-          <h3> What I know </h3>
+          <h3>What I know</h3>
           <section className='tech_skill_items'>
             {displaySkills}
           </section>

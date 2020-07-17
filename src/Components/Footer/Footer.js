@@ -5,7 +5,7 @@ import './Footer.css';
 export function Footer(props) {
 
   return(
-    <footer className='site_footer'>
+    <footer id='site_footer'>
       <ul>
         <li>
           <a href='#' target='_blank'>

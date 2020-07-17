@@ -1,17 +1,18 @@
 /* STYLES FOR FOOTER COMPONENT */
-.site_footer {
+#site_footer {
 
   background: rgb(42,0,126);
   background: linear-gradient(152deg, rgba(42,0,126,1) 0%, rgba(24,0,70,1) 100%);
   color: rgb(252,74,54);
   height: 5vh;
   left: 0;
-  position: absolute;
-  top: calc(5 * 100vh + 5vh);
+  position: fixed;
+  top:0;
+  transition: .5s;
   width: 100%;
 }
 
-.site_footer ul {
+#site_footer ul {
   display: flex;
   float: right;
   height: 100%;
@@ -19,11 +20,11 @@
   width:15%;
 }
 
-.site_footer ul li {
+#site_footer ul li {
   margin: auto;
   position: relative;
 }
-.site_footer a {
+#site_footer a {
   color: rgb(252,74,57);
   text-decoration: none;
 }
@@ -44,6 +45,22 @@
 
 }
 
-.site_footer li:nth-child(2):hover .contact_phone{
+#site_footer li:nth-child(2):hover .contact_phone{
   display: block;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  #site_footer {
+
+    position:fixed;
+    top: 97.5vh;
+
+  }
+
+  #site_footer ul {
+
+    width:50%;
+  }
 }

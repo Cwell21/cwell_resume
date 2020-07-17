@@ -10,3 +10,10 @@
   height: 100vh;
   width: 100vw;
 }
+
+@media only screen and (max-width:1024px) {
+
+  .site_article {
+    height: auto;
+  }
+}
