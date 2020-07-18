@@ -50,6 +50,7 @@
   top: 5vh;
   box-shadow: 2px 2px rgb(100,100,100);
   display: inline-block;
+  font-weight: bold;
   font-size: 2vh;
   right: 0;
   padding: .5vh 2vw;
@@ -63,6 +64,23 @@
 
 
 @media only screen and (max-width: 1024px) {
+
+  #footer {
+    background: linear-gradient(152deg, rgba(24,0,70,1) 0%, rgba(24,0,70,1) 100%);
+  }
+
+  #contact_phone {
+    background-color: rgba(235,235,235,0);
+    box-shadow: none;
+    height: 5vh;
+    left:0;
+    line-height: 4vh;
+    padding: auto .25vw;
+    text-align: left;
+    top:0;
+    width: 100%;
+
+  }
 
   #site_footer ul {
 
